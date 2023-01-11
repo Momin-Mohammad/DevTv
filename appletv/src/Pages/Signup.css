@@ -1,0 +1,36 @@
+
+html body{
+    max-width: 100%;
+    overflow-x: hidden;
+}.form_div{
+    background-color: grey;
+    padding-top: 1%;
+    height: 100vh;
+    padding-bottom: 3%;
+    align-items: center;
+}
+.form{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-radius: 5%;
+    width: 50%;
+    margin: auto;
+    
+   text-align: center;
+   padding: 5%;
+}
+.input{
+    margin-top: 5%;
+}
+
+@media screen and (max-width : 900px){
+    .form{
+        width: 65%;
+    }
+}
+
+@media screen and (max-width : 500px){
+    .form{
+        width: 75%;
+    }
+}
+
